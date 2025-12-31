@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "user": "Mark Webber",
+    "avatar": "src/assets/images/avatar-mark-webber.webp",
+    "action": "reacted to your recent post",
+    "target": "My first tournament today!",
+    "time": "1m ago"
+  },
+  {
+    "id": 2,
+    "user": "Angela Gray",
+    "avatar": "src/assets/images/avatar-angela-gray.webp",
+    "action": "followed you",
+    "time": "5m ago"
+  },
+  {
+    "id": 3,
+    "user": "Jacob Thompson",
+    "avatar": "src/assets/images/avatar-jacob-thompson.webp",
+    "action": "has joined your group",
+    "target": "Chess Club",
+    "time": "1 day ago"
+  },
+  {
+    "id": 4,
+    "user": "Rizky Hasanuddin",
+    "avatar": "src/assets/images/avatar-rizky-hasanuddin.webp",
+    "action": "sent you a private message",
+    "message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+    "time": "5 days ago"
+  },
+  {
+    "id": 5,
+    "user": "Kimberly Smith",
+    "avatar": "src/assets/images/avatar-kimberly-smith.webp",
+    "action": "commented on your picture",
+    "time": "1 week ago"
+  },
+  {
+    "id": 6,
+    "user": "Nathan Peterson",
+    "avatar": "src/assets/images/avatar-nathan-peterson.webp",
+    "action": "commented on your picture",
+    "time": "2 weeks ago"
+  },
+  {
+    "id": 7,
+    "user": "Anna Kim",
+    "avatar": "src/assets/images/avatar-anna-kim.webp",
+    "action": "left the group Chess Club",
+    "time": "2 weeks ago"
+  }
+]
