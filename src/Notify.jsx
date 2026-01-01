@@ -20,20 +20,43 @@ import { useEffect, useState } from "react";
 
   if (loading) return <p>Loading notifications...</p>;
 
+  const markAsRead = id => {
+    setNotifications(prev =>
+      prev.map(item =>
+        item.id === id ? { ...item, read: true } : item
+      )
+    );
+    };
+
+  const markAllAsRead = () => {
+  setNotifications(prev =>
+    prev.map(item => ({ ...item, read: true }))
+  );
+};
+
+
+
   return (
     <div className="notifications-card">
       <div className="header">
         <h2>
-          Notifications <span className="badge">3</span>
+          Notifications <span className="badge">
+          {notifications.filter(n => !n.read).length}
+        </span>
+
         </h2>
-        <button className="mark-read">Mark all as read</button>
+        <button className="mark-read" onClick={markAllAsRead}>
+          Mark all as read
+        </button>
+
       </div>
 
       {notifications.map(item => (
-        <div
-          key={item.id}
-          className={`notification ${!item.read ? "unread" : ""}`}
-        >
+          <div
+            key={item.id}
+            className={`notification ${!item.read ? "unread" : ""}`}
+            onClick={() => markAsRead(item.id)}
+          >
           <img src={item.avatar} alt={item.user} className="avatar" />
 
           <div className="content">
@@ -59,6 +82,5 @@ import { useEffect, useState } from "react";
 
   );
 }
-
 
 export default Notify;

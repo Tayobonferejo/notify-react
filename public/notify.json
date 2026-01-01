@@ -46,7 +46,7 @@
     "time": "1 week ago",
     "unread": false,
     "type": "comment",
-    "image": "/assets/image-chess.webp"
+    "image": "src/assets/images/image-chess.webp"
   },
   {
     "id": 6,
