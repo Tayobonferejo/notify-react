@@ -1,8 +1,108 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+
+body {
+  background: #f7fafd;
+  font-family: system-ui, sans-serif;
 }
 
+.notifications-card {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+}
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 20px;
+}
+
+.badge {
+  background: #0a327b;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.mark-read {
+  background: none;
+  border: none;
+  color: #5e6778;
+  cursor: pointer;
+}
+
+.notification {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.notification.unread {
+  background: #f1f5f9;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.content {
+  flex: 1;
+}
+
+.text {
+  font-size: 15px;
+  color: #5e6778;
+}
+
+.text strong {
+  color: #1c202b;
+}
+
+.target {
+  color: #0a327b;
+  font-weight: 600;
+}
+
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: red;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+
+.time {
+  display: block;
+  font-size: 13px;
+  color: #939dae;
+  margin-top: 4px;
+}
+
+.message-box {
+  border: 1px solid #dde7ee;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 12px;
+  color: #5e6778;
+}
+
+.preview {
+  width: 45px;
+  height: 45px;
+  border-radius: 6px;
+}

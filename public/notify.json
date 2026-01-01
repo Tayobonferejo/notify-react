@@ -5,14 +5,18 @@
     "avatar": "src/assets/images/avatar-mark-webber.webp",
     "action": "reacted to your recent post",
     "target": "My first tournament today!",
-    "time": "1m ago"
+    "time": "1m ago",
+    "unread": true,
+    "type": "reaction"
   },
   {
     "id": 2,
     "user": "Angela Gray",
     "avatar": "src/assets/images/avatar-angela-gray.webp",
     "action": "followed you",
-    "time": "5m ago"
+    "time": "5m ago",
+    "unread": true,
+    "type": "follow"
   },
   {
     "id": 3,
@@ -20,7 +24,9 @@
     "avatar": "src/assets/images/avatar-jacob-thompson.webp",
     "action": "has joined your group",
     "target": "Chess Club",
-    "time": "1 day ago"
+    "time": "1 day ago",
+    "unread": true,
+    "type": "group-join"
   },
   {
     "id": 4,
@@ -28,27 +34,38 @@
     "avatar": "src/assets/images/avatar-rizky-hasanuddin.webp",
     "action": "sent you a private message",
     "message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
-    "time": "5 days ago"
+    "time": "5 days ago",
+    "unread": false,
+    "type": "message"
   },
   {
     "id": 5,
     "user": "Kimberly Smith",
     "avatar": "src/assets/images/avatar-kimberly-smith.webp",
     "action": "commented on your picture",
-    "time": "1 week ago"
+    "time": "1 week ago",
+    "unread": false,
+    "type": "comment",
+    "image": "/assets/image-chess.webp"
   },
   {
     "id": 6,
     "user": "Nathan Peterson",
     "avatar": "src/assets/images/avatar-nathan-peterson.webp",
-    "action": "commented on your picture",
-    "time": "2 weeks ago"
+    "action": "reacted to your recent post",
+    "target": "5 end-game strategies to increase your win rate",
+    "time": "2 weeks ago",
+    "unread": false,
+    "type": "reaction"
   },
   {
     "id": 7,
     "user": "Anna Kim",
     "avatar": "src/assets/images/avatar-anna-kim.webp",
-    "action": "left the group Chess Club",
-    "time": "2 weeks ago"
+    "action": "left the group",
+    "target": "Chess Club",
+    "time": "2 weeks ago",
+    "unread": false,
+    "type": "group-leave"
   }
 ]
